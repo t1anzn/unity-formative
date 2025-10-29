@@ -7,10 +7,15 @@ public class CollisionColour : MonoBehaviour
     void Start()
     {
         _renderer = GetComponent<Renderer>();
-        _renderer.material.color = Color.black;
     }
 
     private void OnCollisionEnter(Collision collision) {
-        _renderer.material.color = Color.red;
-    }
-}
+        if (collision.gameObject.GetComponent<CollisionColour>() != null)
+        {
+            _renderer.material.color = Color.black;
+        }
+        else
+        {
+            _renderer.material.color = Color.red;
+        }
+}}
