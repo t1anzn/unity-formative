@@ -16,6 +16,9 @@ GameObject:
   - component: {fileID: 6995456681243149116}
   - component: {fileID: -8988629825570161997}
   - component: {fileID: -7688560536482638472}
+  - component: {fileID: 3710865834955877620}
+  - component: {fileID: -471585398552937349}
+  - component: {fileID: 5071263764887469433}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -181,3 +184,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KillMe
   destroyHeight: -10
+--- !u!114 &3710865834955877620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2774845074667742488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbddf6766cc7e4a60b3814d1a3b78bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KillMe
+  destroyHeight: -15
+--- !u!114 &-471585398552937349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2774845074667742488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc02821877204552aeed453a7f2a4f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionColour
+--- !u!114 &5071263764887469433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2774845074667742488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fd949d56aaff4201b5b25482ac8fcb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ResizeMe
+  sizeMin: 0.2
+  sizeMax: 2
